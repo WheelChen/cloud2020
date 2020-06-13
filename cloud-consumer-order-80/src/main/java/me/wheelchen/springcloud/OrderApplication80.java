@@ -2,16 +2,16 @@ package me.wheelchen.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @author Kelvin Chen
- * @date 2020-06-13 16:28:58
+ * @date 2020-06-13 10:31:19
  */
-@EnableEurekaServer
+@EnableEurekaClient
 @SpringBootApplication
-public class EurekaApplication {
+public class OrderApplication80 {
     public static void main(String[] args) {
-        SpringApplication.run(EurekaApplication.class, args);
+        SpringApplication.run(OrderApplication80.class, args);
     }
 }
