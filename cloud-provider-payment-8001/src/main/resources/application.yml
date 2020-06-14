@@ -21,4 +21,4 @@ eureka:
     # 将自身注册进入Eureka中
     register-with-eureka: true
     service-url:
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka, http://eureka7002.com:7002/eureka
