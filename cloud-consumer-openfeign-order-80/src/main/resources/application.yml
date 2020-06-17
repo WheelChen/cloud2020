@@ -10,3 +10,7 @@ ribbon:
   ReadTimeout: 5000
   # 建立连接后从服务器读取到可用资源的时间
   ConnectTimeout: 5000
+logging:
+  level:
+    # feign日志以什么级别监控接口
+    me.wheelchen.springcloud.service.PaymentOpenfeignService: debug
